@@ -1,6 +1,6 @@
-package Project;
+package manajemen.puskesma;
 
-import Project.*;
+import manajemen.puskesma.*;
 import java.util.Scanner;
 
 public class Main() {
