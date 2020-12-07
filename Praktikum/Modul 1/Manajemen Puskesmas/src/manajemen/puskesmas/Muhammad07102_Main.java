@@ -161,7 +161,8 @@ public class Muhammad07102_Main {
             System.out.println("Data Ke - "+i);
             System.out.println("NIK : "+datauser.get(i).getNik());
             System.out.println("Nama : "+datauser.get(i).getNama());
-            System.out.println("Tanggal Lahir = "+new SimpleDateFormat("MM-dd-yyyy").format(datauser.get(i).getDate()));
+            System.out.println("Tanggal Lahir = "+new SimpleDateFormat("MM-dd-yyyy")
+                    .format(datauser.get(i).getDate()));
             System.out.println("Alamat : "+datauser.get(i).getAlamat());
             int Muhammad07102_gender = datauser.get(i).isJenisKelamin();
             if(Muhammad07102_gender == 0) System.out.println("Jenis Kelamin : Laki-Laki");
