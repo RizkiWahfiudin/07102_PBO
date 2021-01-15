@@ -9,7 +9,7 @@ import Entity.Muhammad07102_AdminEntity;
 import java.util.ArrayList;
 public class Muhammad07102_AdminModel implements Muhammad07102_ModelInterfaces {
     private ArrayList<Muhammad07102_AdminEntity> adminEntityArrayList = new ArrayList();    
-    public void AdminModel() {
+    public Muhammad07102_AdminModel() {
         adminEntityArrayList = new ArrayList<Muhammad07102_AdminEntity>();
     }
     public void insertAdmin(Muhammad07102_AdminEntity admin) {

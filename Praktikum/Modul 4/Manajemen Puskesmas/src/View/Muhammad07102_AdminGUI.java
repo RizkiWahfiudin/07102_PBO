@@ -17,7 +17,6 @@ import java.util.Date;
 
 public class Muhammad07102_AdminGUI {
     private static Muhammad07102_DokterController dokter = new Muhammad07102_DokterController();
-    private static Muhammad07102_PasienController pasien = new Muhammad07102_PasienController();
     JFrame Admin = new JFrame();
     JTable tabeldokter = new JTable();
     JScrollPane scrolldokter = new JScrollPane(tabeldokter);
@@ -35,7 +34,7 @@ public class Muhammad07102_AdminGUI {
     	userdokter.setBounds(250,30,350,30);
     	userdokter.setFont(new Font("Times New Roman",Font.BOLD,40));
     	Admin.add(userdokter);
-
+        
     	scrolldokter.setBounds(30,100,720,150);
     	tabeldokter.setModel(dokter.daftardokter());
     	Admin.add(scrolldokter);
@@ -47,7 +46,6 @@ public class Muhammad07102_AdminGUI {
     	labelnik = new JLabel("NIK");
     	labelnik.setBounds(50,270,150,30);
     	Admin.add(labelnik);
-
     	textnik = new JTextField();
     	textnik.setBounds(50,300,150,30);
     	Admin.add(textnik);
@@ -55,7 +53,6 @@ public class Muhammad07102_AdminGUI {
         labelnama = new JLabel("Nama");
     	labelnama.setBounds(220,270,150,30);
     	Admin.add(labelnama);
-
     	textnama = new JTextField();
     	textnama.setBounds(220,300,150,30);
     	Admin.add(textnama);
@@ -63,7 +60,6 @@ public class Muhammad07102_AdminGUI {
     	labelpass = new JLabel("Password");
     	labelpass.setBounds(50,330,150,30);
     	Admin.add(labelpass);
-
     	textpass = new JTextField();
     	textpass.setBounds(50,360,150,30);
     	Admin.add(textpass);
@@ -71,7 +67,6 @@ public class Muhammad07102_AdminGUI {
         labeltgllahir = new JLabel("Tanggal Lahir (dd/mm/yyyy)");
     	labeltgllahir.setBounds(220,330,150,30);
     	Admin.add(labeltgllahir);
-
     	texttgllahir = new JTextField();
     	texttgllahir.setBounds(220,360,150,30);
     	Admin.add(texttgllahir);
@@ -79,7 +74,6 @@ public class Muhammad07102_AdminGUI {
     	labelalamat = new JLabel("Alamat");
     	labelalamat.setBounds(50,390,150,30);
     	Admin.add(labelalamat);
-
     	textalamat = new JTextField();
     	textalamat.setBounds(50,420,150,30);
     	Admin.add(textalamat);
@@ -87,12 +81,10 @@ public class Muhammad07102_AdminGUI {
         labeljeniskelamin = new JLabel("Jenis Kelamin");
     	labeljeniskelamin.setBounds(220,390,150,30);
     	Admin.add(labeljeniskelamin);
-        
         radiopria = new JRadioButton("Pria");
     	radiopria.setBounds(220,420,70,30);
     	radiopria.setBackground(Color.CYAN);
     	Admin.add(radiopria);
-        
         radiowanita = new JRadioButton("Wanita");
     	radiowanita.setBounds(300,420,70,30);
     	radiowanita.setBackground(Color.CYAN);
@@ -101,7 +93,6 @@ public class Muhammad07102_AdminGUI {
         labelspesialis = new JLabel("Spesialis");
         labelspesialis.setBounds(50,450,150,30);
         Admin.add(labelspesialis);
-
         textspesialis = new JTextField();
         textspesialis.setBounds(50,480,150,30);
         Admin.add(textspesialis);

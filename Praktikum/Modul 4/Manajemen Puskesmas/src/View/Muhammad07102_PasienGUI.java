@@ -51,8 +51,7 @@ public class Muhammad07102_PasienGUI {
     	
     	Pasien.setVisible(true);
     	Pasien.setLocationRelativeTo(null);
-    	Pasien.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        
+    	Pasien.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);        
         if(cek == -1) JOptionPane.showMessageDialog(null, "Anda Belum Mendaftar!","information",JOptionPane.INFORMATION_MESSAGE);
     	else if(cek == -2) JOptionPane.showMessageDialog(null, "Anda Belum Mendaftar!","information",JOptionPane.INFORMATION_MESSAGE);
     	else area.setText(datapasien());

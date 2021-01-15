@@ -40,7 +40,6 @@ public class Muhammad07102_DokterGUI {
     	niklabel = new JLabel("NIK");
     	niklabel.setBounds(50,320,100,30);
     	Dokter.add(niklabel);
-
     	niktext = new JTextField();
     	niktext.setBounds(50,350,100,30);
     	Dokter.add(niktext);
@@ -48,7 +47,6 @@ public class Muhammad07102_DokterGUI {
     	passlabel = new JLabel("Password");
     	passlabel.setBounds(200,320,100,30);
     	Dokter.add(passlabel);
-
     	passtext = new JTextField();
     	passtext.setBounds(200,350,100,30);
     	Dokter.add(passtext);
@@ -66,7 +64,6 @@ public class Muhammad07102_DokterGUI {
     	Dokter.setLocationRelativeTo(null);
     	Dokter.setVisible(true);
     	Dokter.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
     	back.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent ae) {

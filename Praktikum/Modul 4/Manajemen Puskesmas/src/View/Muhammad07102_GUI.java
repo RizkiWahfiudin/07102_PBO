@@ -14,7 +14,6 @@ import java.util.Date;
 import javax.swing.*;
 import java.awt.event.ItemListener;
 import java.awt.event.ItemEvent;
-
 public class Muhammad07102_GUI {
     JFrame Index = new JFrame();
     JLabel login,register,top;
@@ -90,7 +89,6 @@ public class Muhammad07102_GUI {
     	labelnikregister = new JLabel("NIK");
     	labelnikregister.setBounds(400,180,30,30);
     	Index.add(labelnikregister);
-
     	textnikregister = new JTextField();
     	textnikregister.setBounds(400,210,200,30);
     	Index.add(textnikregister);
@@ -98,7 +96,6 @@ public class Muhammad07102_GUI {
     	labelnama = new JLabel("Nama");
     	labelnama.setBounds(400,240,100,30);
     	Index.add(labelnama);
-
     	textnama = new JTextField();
     	textnama.setBounds(400,270,200,30);
     	Index.add(textnama);
@@ -106,7 +103,6 @@ public class Muhammad07102_GUI {
     	labelpasswordregister = new JLabel("Password");
     	labelpasswordregister.setBounds(400,300,100,30);
     	Index.add(labelpasswordregister);
-
     	passwordregister = new JPasswordField();
     	passwordregister.setBounds(400,330,200,30);
     	Index.add(passwordregister);
@@ -114,7 +110,6 @@ public class Muhammad07102_GUI {
     	labeltgllahir = new JLabel("Tanggal Lahir (dd/mm/yyyy)");
     	labeltgllahir.setBounds(400,360,200,30);
     	Index.add(labeltgllahir);
-
     	texttgllahir = new JTextField();
     	texttgllahir.setBounds(400,390,200,30);
     	Index.add(texttgllahir);
@@ -122,7 +117,6 @@ public class Muhammad07102_GUI {
     	labelalamat = new JLabel("Alamat");
     	labelalamat.setBounds(400,420,200,30);
     	Index.add(labelalamat);
-
     	textalamat = new JTextField();
     	textalamat.setBounds(400,450,200,30);
     	Index.add(textalamat);
@@ -130,7 +124,6 @@ public class Muhammad07102_GUI {
         labeljeniskelamin = new JLabel("Jenis Kelamin");
     	labeljeniskelamin.setBounds(400,480,200,30);
     	Index.add(labeljeniskelamin);
-        
         JComboBox jk = new JComboBox(Muhammad07102_TypeEntity.Muhammad07102_Gender);    
         jk.setBounds(400,510,200,30);
         Index.add(jk);
@@ -138,7 +131,6 @@ public class Muhammad07102_GUI {
         labelspesialis = new JLabel("Spesialis");
         labelspesialis.setBounds(400,540,100,30);
         Index.add(labelspesialis);
-
         textspesialis = new JTextField();
         textspesialis.setBounds(400,570,200,30);
         Index.add(textspesialis);
@@ -146,7 +138,6 @@ public class Muhammad07102_GUI {
         labelnotelp = new JLabel("No. Telepon");
         labelnotelp.setBounds(400,540,100,30);
         Index.add(labelnotelp);
-
         textnotelp = new JTextField();
         textnotelp.setBounds(400,570,200,30);
         Index.add(textnotelp);
@@ -159,7 +150,6 @@ public class Muhammad07102_GUI {
     	Index.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     	Index.setVisible(true);
     	Index.setLocationRelativeTo(null);
-        
         labelspesialis.setVisible(false);
         textspesialis.setVisible(false);
         labelnotelp.setVisible(false);
